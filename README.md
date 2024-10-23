@@ -7,6 +7,8 @@
 - **Query Augmentation**: Enhances generated answers by supplementing queries with relevant retrieved information.
 - **Multi-format Support**: Supports querying across text files, PDFs, and databases.
 
+![Alt text](https://mallahyari.github.io/rag-ebook/diagrams/rag_pipeline_simplified.png)
+
 This Streamlit application allows users to ask questions related to the content of uploaded PDF files. The underlying mechanism involves extracting text from PDFs, dividing it into chunks, and using Google Generative AI for question-answering.
 
 
