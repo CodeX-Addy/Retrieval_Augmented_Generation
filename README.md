@@ -120,11 +120,18 @@ The application uses the following models:
 - **Generation**: `gemini-pro` (Google Generative AI)
 - **Temperature**: 0.3 (for consistent responses)
 
+### Vector Database
+
+- **Current Implementation**: FAISS (Facebook AI Similarity Search)
+- **Alternative Support**: ChromaDB is included in dependencies for potential future use or custom implementations
+
 ### Text Chunking Parameters
 
-You can adjust these parameters in the code:
-- **Chunk Size**: 100 characters (default)
+You can adjust these parameters in the code for better performance:
+- **Chunk Size**: 100 characters (default - consider increasing to 500-1000 for better context)
 - **Chunk Overlap**: 100 characters (default)
+
+**Note**: The current chunk size of 100 characters is quite small and may be suboptimal for some use cases. For better retrieval performance, consider increasing it to 500-1000 characters depending on your document structure.
 
 ## 🛠️ Technologies Used
 
@@ -182,6 +189,7 @@ Please ensure your code follows the existing style and includes appropriate docu
 - Requires internet connection for API calls to Google Generative AI
 - Answer quality depends on document content and question clarity
 - Large documents may take longer to process
+- Default chunk size (100 characters) may need adjustment for optimal performance with your specific documents
 
 ## 📄 License
 
