@@ -195,13 +195,13 @@ Please ensure your code follows the existing style and includes appropriate docu
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - RAG diagram from [RAG eBook by mallahyari](https://mallahyari.github.io/rag-ebook/)
 - Built with [LangChain](https://python.langchain.com/) and [Google Generative AI](https://ai.google.dev/)
 - Inspired by the growing field of Retrieval Augmented Generation
 
-## 📧 Contact
+##  Contact
 
 **Aditya Tomar** - [@CodeX-Addy](https://github.com/CodeX-Addy)
 
