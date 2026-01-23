@@ -5,17 +5,17 @@ A powerful Python application that demonstrates Retrieval Augmented Generation (
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-## 🌟 Features
+## Features
 
-- **📄 PDF Document Processing**: Extract and process text from multiple PDF files
-- **🔍 Intelligent Document Retrieval**: Use FAISS vector database to efficiently retrieve relevant information from large document collections
-- **🤖 AI-Powered Generation**: Leverage Google's Gemini Pro model to generate accurate, context-aware answers
-- **💬 Interactive Chat Interface**: User-friendly Streamlit web interface for document interaction
-- **📊 Semantic Search**: Advanced embedding-based similarity search for finding relevant document chunks
-- **🔗 Context-Aware Responses**: Combines retrieved context with LLM capabilities for detailed answers
-- **⚡ Fast Vector Search**: FAISS-based indexing for rapid similarity search at scale
+- ** PDF Document Processing**: Extract and process text from multiple PDF files
+- ** Intelligent Document Retrieval**: Use FAISS vector database to efficiently retrieve relevant information from large document collections
+- ** AI-Powered Generation**: Leverage Google's Gemini Pro model to generate accurate, context-aware answers
+- ** Interactive Chat Interface**: User-friendly Streamlit web interface for document interaction
+- ** Semantic Search**: Advanced embedding-based similarity search for finding relevant document chunks
+- ** Context-Aware Responses**: Combines retrieved context with LLM capabilities for detailed answers
+- ** Fast Vector Search**: FAISS-based indexing for rapid similarity search at scale
 
-## 🏗️ How It Works
+##  How It Works
 
 ![RAG Pipeline](https://mallahyari.github.io/rag-ebook/diagrams/rag_pipeline_simplified.png)
 
@@ -30,7 +30,7 @@ The application implements a complete RAG pipeline:
 7. **Similarity Search**: Find most relevant document chunks based on semantic similarity
 8. **Answer Generation**: Generate detailed answers using Gemini Pro with retrieved context
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
