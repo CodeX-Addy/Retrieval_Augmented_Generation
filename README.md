@@ -1,4 +1,4 @@
-# 📚 Retrieval Augmented Generation (RAG) with PDF Question Answering
+# Retrieval Augmented Generation (RAG)
 
 A powerful Python application that demonstrates Retrieval Augmented Generation (RAG) using Google's Gemini AI and LangChain. This project enables intelligent question-answering over PDF documents by combining document retrieval with large language model generation.
 
