@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ##  Contact
 
-**Aditya Tomar** - [@CodeX-Addy](https://github.com/CodeX-Addy)
+**Aditya Tomar** - adityatomar.dev0@gmail.com
 
 Project Link: [https://github.com/CodeX-Addy/Retrieval_Augmented_Generation](https://github.com/CodeX-Addy/Retrieval_Augmented_Generation)
 
