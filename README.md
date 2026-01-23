@@ -63,7 +63,7 @@ The application implements a complete RAG pipeline:
    GOOGLE_API_KEY=your_google_api_key_here
    ```
 
-## 📖 Usage
+##  Usage
 
 ### Option 1: Streamlit Web Application (Recommended)
 
@@ -90,7 +90,7 @@ python chatbot-assistance.py
 
 **Note**: This version requires you to modify the script to specify PDF file paths directly in the code.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Retrieval_Augmented_Generation/
@@ -105,7 +105,7 @@ Retrieval_Augmented_Generation/
 └── faiss_index/               # Generated FAISS vector store (created at runtime)
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -133,7 +133,7 @@ You can adjust these parameters in the code for better performance:
 
 **Note**: The current chunk size of 100 characters is quite small and may be suboptimal for some use cases. For better retrieval performance, consider increasing it to 500-1000 characters depending on your document structure.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **[Streamlit](https://streamlit.io/)**: Web application framework
 - **[LangChain](https://python.langchain.com/)**: Framework for building LLM applications
@@ -142,7 +142,7 @@ You can adjust these parameters in the code for better performance:
 - **[PyPDF2](https://pypdf2.readthedocs.io/)**: PDF text extraction
 - **[python-dotenv](https://github.com/theskumar/python-dotenv)**: Environment variable management
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 google-generativeai
@@ -155,7 +155,7 @@ chromadb
 streamlit
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -168,7 +168,7 @@ Contributions are welcome! Here's how you can help:
 
 Please ensure your code follows the existing style and includes appropriate documentation.
 
-## 📝 Use Cases
+##  Use Cases
 
 - **Research**: Query academic papers and research documents
 - **Legal**: Search through legal documents and contracts
@@ -176,14 +176,14 @@ Please ensure your code follows the existing style and includes appropriate docu
 - **Business**: Analyze reports, policies, and documentation
 - **Personal**: Organize and query personal document collections
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 - API keys are stored securely in `.env` files (not committed to version control)
 - Documents are processed locally
 - FAISS index is stored locally on your machine
 - No data is shared with third parties except Google AI for embeddings and generation
 
-## ⚠️ Limitations
+##  Limitations
 
 - Currently supports PDF files only
 - Requires internet connection for API calls to Google Generative AI
@@ -191,7 +191,7 @@ Please ensure your code follows the existing style and includes appropriate docu
 - Large documents may take longer to process
 - Default chunk size (100 characters) may need adjustment for optimal performance with your specific documents
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
